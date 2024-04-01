@@ -1,0 +1,200 @@
+{"question_id": 1, "category": "运动伦理学", "turns": ["运动比赛中使用兴奋剂，是否违背了运动伦理学的基本原则？A. 是 B. 否"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 2, "category": "运动伦理学", "turns": ["运动员在比赛中故意伤害对手，这种行为是否符合运动伦理学的规范？A. 是 B. 否"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 3, "category": "运动伦理学", "turns": ["在竞技体育中，赛场上的公正竞争是否是运动伦理学的核心原则之一？A. 是 B. 否"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 4, "category": "运动伦理学", "turns": ["教练员为了获胜而鼓励运动员使用不正当手段，这是否违反了运动伦理学的标准？A. 是 B. 否"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 5, "category": "运动伦理学", "turns": ["赞助商利用经济影响力操控比赛结果，这是否与运动伦理学的理念相悖？A. 是 B. 否"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 6, "category": "运动伦理学", "turns": ["运动员展示出色的体育精神和尊重对手，是否体现了运动伦理学的价值观？A. 是 B. 否"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 7, "category": "运动伦理学", "turns": ["裁判在体育比赛中的公正判罚是否是运动伦理学的重要组成部分？A. 是 B. 否"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 8, "category": "运动伦理学", "turns": ["运动员应遵守比赛规则和精神，这是否是运动伦理学的基本要求？A. 是 B. 否"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 9, "category": "运动伦理学", "turns": ["在团队运动中，团队合作和相互尊重是否是运动伦理学的关键元素？A. 是 B. 否"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 10, "category": "运动伦理学", "turns": ["反兴奋剂机构的存在是否对保护运动伦理学具有重要意义？A. 是 B. 否"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 11, "category": "运动伦理学", "turns": ["体育纠纷解决规则的制定依据包括《中华人民共和国体育法》等哪些法律？A. 国内法 B. 国际法 C. 地方法规 D. 行业规定"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 12, "category": "运动伦理学", "turns": ["中国体育仲裁委员会的所在地在哪里？A. 上海市 B. 北京市 C. 广州市 D. 深圳市"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 13, "category": "运动伦理学", "turns": ["体育仲裁委员会不受理哪类案件？A. 兴奋剂管理纠纷 B. 运动员注册纠纷 C. 劳动争议 D. 竞技体育活动纠纷"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 14, "category": "运动伦理学", "turns": ["当事人如何同意按照体育仲裁委员会的规则进行仲裁？A. 口头同意 B. 书面协议 C. 无需同意 D. 通过法院"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 15, "category": "运动伦理学", "turns": ["体育仲裁委员会是否可以设立专门的《反兴奋剂仲裁员名册》？A. 可以 B. 不可以"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 16, "category": "运动伦理学", "turns": ["体育仲裁委员会仲裁员的资格条件不包括哪项？A. 律师执业八年 B. 曾任法官八年 C. 体育学高级职称 D. 医学专业背景"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 17, "category": "运动伦理学", "turns": ["所有体育仲裁委员会的仲裁裁决均视为在哪里作出？A. 上海市 B. 北京市 C. 仲裁双方所在地 D. 法院所在地"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 18, "category": "运动伦理学", "turns": ["仲裁规则中的期限，其开始之日是否计算在期限内？A. 是 B. 否"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 19, "category": "运动伦理学", "turns": ["仲裁文件可以通过哪些方式送达？A. 当面送达和邮寄 B. 电子邮件和传真 C. 以上所有 D. 无需送达"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 20, "category": "运动伦理学", "turns": ["如果当事人在仲裁过程中知道违反规则但未及时提出书面异议，将会怎样？A. 可以稍后提出 B. 视为放弃异议权利 C. 不受影响 D. 可以申请重审"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 21, "category": "运动伦理学", "turns": ["仲裁协议的书面形式不包括哪项？A. 信件 B. 电子邮件 C. 口头协议 D. 电传"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 22, "category": "运动伦理学", "turns": ["在交换仲裁申请书和答辩书时，如果一方声称有仲裁协议而另一方不否认，将如何处理？A. 视为无协议 B. 视为有协议 C. 需进一步证明 D. 仲裁庭决定"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 23, "category": "运动伦理学", "turns": ["体育组织章程授权制定的管理规则中的体育仲裁条款视为什么？A. 独立协议 B. 合同的一部分 C. 体育组织章程的仲裁条款 D. 无效条款"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 24, "category": "运动伦理学", "turns": ["当事人对处理决定或纠纷处理结果不服，应在多长时间内申请体育仲裁？A. 15天 B. 21天 C. 30天 D. 60天"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 25, "category": "运动伦理学", "turns": ["如果体育组织内部纠纷解决机制未及时处理纠纷，当事人可以如何做？A. 申请法院介入 B. 向体育仲裁委员会申请仲裁 C. 等待内部解决 D. 放弃索赔"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 26, "category": "运动伦理学", "turns": ["体育仲裁委员会可以对什么内容作出决定？A. 仲裁协议的存在和效力 B. 仲裁案件的管辖权 C. 仲裁案件的判决结果 D. 仲裁庭的组成"], "reference_answer": ["A, B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 27, "category": "运动伦理学", "turns": ["当事人对仲裁协议或仲裁案件管辖权的异议应当何时提出？A. 任何时候 B. 在答辩期限届满前 C. 在裁决作出前 D. 在仲裁程序开始时"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 28, "category": "运动伦理学", "turns": ["仲裁庭作出管辖权决定的方式包括哪些？A. 单独作出 B. 在裁决书中一并作出 C. 由当事人决定 D. 由体育仲裁委员会决定"], "reference_answer": ["A, B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 29, "category": "运动伦理学", "turns": ["如果体育仲裁委员会或仲裁庭作出无管辖权决定，应如何处理案件？A. 继续审理 B. 转交法院 C. 撤销案件 D. 暂停审理"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 30, "category": "运动伦理学", "turns": ["体育仲裁委员会依表面证据认为存在有效仲裁协议时，将会怎样处理？A. 撤销案件 B. 有管辖权 C. 转交法院 D. 暂停审理"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 31, "category": "运动伦理学", "turns": ["仲裁申请书应包括的内容不包括哪一项？A. 当事人的基本信息 B. 仲裁请求和所依据的事实、理由 C. 证据和证人信息 D. 申请人的银行账户信息"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 32, "category": "运动伦理学", "turns": ["仲裁程序从何时开始？A. 仲裁申请书提交之日 B. 仲裁委员会收到仲裁申请书之日 C. 当事人达成仲裁协议之日 D. 仲裁庭组成之日"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 33, "category": "运动伦理学", "turns": ["如果仲裁申请书不符合规定，体育仲裁委员会会怎样处理？A. 直接受理 B. 要求补正 C. 视为撤回 D. 转交法院"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 34, "category": "运动伦理学", "turns": ["体育仲裁委员会在受理仲裁申请后，应在多长时间内将仲裁通知发送给当事人？A. 三日内 B. 五日内 C. 十日内 D. 十五日内"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 35, "category": "运动伦理学", "turns": ["被申请人应在收到仲裁申请书副本之日起多久内提交答辩书？A. 五日内 B. 十日内 C. 十五日内 D. 二十日内"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 36, "category": "运动伦理学", "turns": ["被申请人提出反请求应在收到仲裁通知之日起多少日内向体育仲裁委员会提交反请求申请书？A. 五日内 B. 十日内 C. 十五日内 D. 二十日内"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 37, "category": "运动伦理学", "turns": ["当事人可以自收到仲裁通知之日起多久内提出变更仲裁请求或反请求？A. 五日内 B. 十日内 C. 十五日内 D. 二十日内"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 38, "category": "运动伦理学", "turns": ["合并多个仲裁案件进行审理的条件不包括哪一项？A. 各案当事人相同 B. 各案依据同一仲裁协议提出 C. 各案所涉法律关系性质相同 D. 所有当事人均反对合并"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 39, "category": "运动伦理学", "turns": ["案件有多方当事人时，任何一方均可依据相同的仲裁协议提出什么？A. 仲裁请求 B. 反请求 C. 证据材料 D. 仲裁庭组成建议"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 40, "category": "运动伦理学", "turns": ["当事人提交的书面材料应当一式几份？A. 三份 B. 四份 C. 五份 D. 六份"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 41, "category": "运动伦理学", "turns": ["仲裁庭通常由几名仲裁员组成？A. 一名 B. 两名 C. 三名 D. 四名"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 42, "category": "运动伦理学", "turns": ["在三人仲裁庭中，第三名仲裁员由谁选定？A. 申请人 B. 被申请人 C. 双方当事人共同 D. 仲裁庭首席仲裁员"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 43, "category": "运动伦理学", "turns": ["如果双方当事人的推荐名单中没有相同人选，首席仲裁员由谁指定？A. 申请人 B. 被申请人 C. 双方当事人共同 D. 主任"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 44, "category": "运动伦理学", "turns": ["与反兴奋剂有关的体育仲裁中，仲裁员应具备什么背景？A. 法学背景或法律专业经验 B. 体育学背景 C. 医学专业背景 D. 运动员经历"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 45, "category": "运动伦理学", "turns": ["独任仲裁员由谁选定？A. 申请人 B. 被申请人 C. 主任 D. 双方当事人共同"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 46, "category": "运动伦理学", "turns": ["如果仲裁案件的申请人或被申请人有多方，他们应如何选定仲裁员？A. 各自独立选定 B. 各自协商共同选定 C. 由主任指定 D. 交由仲裁庭决定"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 47, "category": "运动伦理学", "turns": ["仲裁庭组成后，体育仲裁委员会应在多少日内通知当事人？A. 三日内 B. 五日内 C. 七日内 D. 十日内"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 48, "category": "运动伦理学", "turns": ["仲裁员在收到组庭通知后应签署什么声明？A. 独立、公正仲裁声明 B. 保密声明 C. 利益冲突声明 D. 合规声明"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 49, "category": "运动伦理学", "turns": ["仲裁员的回避申请应在什么时候提出？A. 知悉回避事由后十日内 B. 仲裁程序开始前 C. 首次庭审开始前 D. 仲裁庭组成后"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 50, "category": "运动伦理学", "turns": ["如果仲裁员不能履行职责，应如何处理？A. 暂停仲裁程序 B. 终止仲裁程序 C. 替换仲裁员 D. 由主任决定是否继续"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 51, "category": "运动伦理学", "turns": ["除非当事人另有约定，仲裁庭通常以什么方式审理案件？A. 开庭审理 B. 书面审理 C. 电话审理 D. 网络审理"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 52, "category": "运动伦理学", "turns": ["现场开庭一般在哪里进行？A. 当事人所在地 B. 体育仲裁委员会所在地 C. 法院所在地 D. 申请人所在地"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 53, "category": "运动伦理学", "turns": ["仲裁通常是否公开进行？A. 是 B. 否"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 54, "category": "运动伦理学", "turns": ["仲裁庭何时可以进行公开审理？A. 总是 B. 经主任审查同意 C. 当事人一方请求 D. 任何情况下"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 55, "category": "运动伦理学", "turns": ["仲裁庭应当在首次开庭前多久通知双方当事人开庭日期和地点？A. 五日前 B. 十日前 C. 十五日前 D. 二十日前"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 56, "category": "运动伦理学", "turns": ["如果申请人在首次开庭时无正当理由不到庭，仲裁庭将如何处理？A. 延期开庭 B. 缺席审理 C. 撤回仲裁申请 D. 重新安排开庭"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 57, "category": "运动伦理学", "turns": ["庭审笔录应由哪些人签名或盖章？A. 仲裁员和仲裁秘书 B. 当事人和仲裁参与人 C. 仲裁员、仲裁秘书和当事人 D. 仲裁员、仲裁秘书、当事人和其他仲裁参与人"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 58, "category": "运动伦理学", "turns": ["当事人对自己的主张承担什么责任？A. 举证责任 B. 说明责任 C. 负责责任 D. 报告责任"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 59, "category": "运动伦理学", "turns": ["当事人申请证人出庭作证时应提供的内容不包括哪一项？A. 证人身份信息 B. 证人的证言内容 C. 证人与案件的关联性 D. 证人的银行账户信息"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 60, "category": "运动伦理学", "turns": ["当事人申请进行鉴定时，仲裁庭应在多长时间内作出决定？A. 立即 B. 三日内 C. 五日内 D. 合理期限内"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 61, "category": "运动伦理学", "turns": ["仲裁庭在案件审理过程中，可以就哪些事项作出决定？A. 仅程序事项 B. 仅实体事项 C. 程序和实体事项 D. 无权作出决定"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 62, "category": "运动伦理学", "turns": ["仲裁庭应根据什么依据作出裁决？A. 仅法律 B. 仅体育组织规定 C. 法律及体育组织规定和体育赛事规则 D. 仲裁庭的自由裁量"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 63, "category": "运动伦理学", "turns": ["裁决书不需要包含哪些内容？A. 仲裁请求 B. 裁决理由 C. 裁决结果 D. 当事人的财务状况"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 64, "category": "运动伦理学", "turns": ["仲裁庭应在组庭后多长时间内作出裁决？A. 一个月 B. 两个月 C. 三个月 D. 六个月"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 65, "category": "运动伦理学", "turns": ["仲裁庭可以在最终裁决前作出哪些类型的裁决？A. 部分裁决 B. 中间裁决 C. 临时裁决 D. A 和 B"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 66, "category": "运动伦理学", "turns": ["裁决书自什么时候起发生法律效力？A. 签署之日 B. 作出之日 C. 送达当事人之日 D. 公告之日"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 67, "category": "运动伦理学", "turns": ["仲裁庭通常如何确定双方当事人应承担的仲裁费用？A. 按照当事人的要求 B. 按照败诉方承担原则 C. 平均分摊 D. 由当事人协商决定"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 68, "category": "运动伦理学", "turns": ["裁决书在作出前需要提交给谁进行核阅？A. 当事人 B. 法院 C. 体育仲裁委员会 D. 体育总局"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 69, "category": "运动伦理学", "turns": ["对裁决书中的文字错误等，仲裁庭应如何处理？A. 忽略 B. 更正 C. 重新裁决 D. 提交上级机构"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 70, "category": "运动伦理学", "turns": ["如果人民法院通知重新仲裁，仲裁庭应该怎样做？A. 重新审理并作出裁决 B. 拒绝重新审理 C. 转交其他仲裁庭 D. 等待进一步指示"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 71, "category": "运动伦理学", "turns": ["重大体育赛事活动期间需要即时处理的体育赛事活动纠纷适用于哪种程序？A. 普通程序 B. 特别程序 C. 紧急程序 D. 简易程序"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 72, "category": "运动伦理学", "turns": ["《特别程序仲裁员名册》应包含几名仲裁员？A. 三至六名 B. 六至九名 C. 九至十二名 D. 十二至十五名"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 73, "category": "运动伦理学", "turns": ["在特别程序中，仲裁文件通常通过什么方式送达？A. 邮寄 B. 电话 C. 电子邮件 D. B 和 C"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 74, "category": "运动伦理学", "turns": ["依据特别程序申请仲裁时，除了必须写明的内容外，还需要特别说明什么？A. 申请人和被申请人在重大体育赛事活动期间的地址 B. 申请人的职业信息 C. 申请人的银行账户信息 D. 被申请人的联系电话"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 75, "category": "运动伦理学", "turns": ["在特别程序中，仲裁庭由几名仲裁员组成？A. 一名 B. 二名 C. 三名 D. 四名"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 76, "category": "运动伦理学", "turns": ["在特别程序中，仲裁员应当在何时回避？A. 收到组庭通知后 B. 在仲裁程序开始前 C. 在首次庭审前 D. 任何时间"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 77, "category": "运动伦理学", "turns": ["依据同一赛事规则申请的仲裁，如果与其他在先未决案件关联，主任可以如何处理？A. 分开审理 B. 按顺序审理 C. 将在后申请指派给在先申请的仲裁庭合并裁决 D. 驳回后来的申请"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 78, "category": "运动伦理学", "turns": ["在特别程序中，仲裁庭应如何组织仲裁程序？A. 固定模式 B. 根据法律规定 C. 依据其认为适当的方式 D. 按照当事人的要求"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 79, "category": "运动伦理学", "turns": ["在特别程序中，仲裁庭应在仲裁申请提出后多久内作出裁决？A. 十二小时 B. 二十四小时 C. 四十八小时 D. 七十二小时"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 80, "category": "运动伦理学", "turns": ["特别程序中的裁决是什么性质的裁决？A. 初步裁决 B. 终局裁决 C. 临时裁决 D. 非正式裁决"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 81, "category": "运动伦理学", "turns": ["根据本条例，谁负责组织全国的反兴奋剂工作？A. 国务院体育主管部门 B. 省级体育主管部门 C. 卫生部门 D. 教育部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 82, "category": "运动伦理学", "turns": ["兴奋剂目录由哪些部门制定、调整并公布？A. 国务院体育主管部门 B. 国务院药品监督管理部门 C. 国务院卫生主管部门 D. 所有上述部门"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 83, "category": "运动伦理学", "turns": ["哪些媒体应当开展反兴奋剂的宣传？A. 广播电台 B. 电视台 C. 报刊媒体 D. 所有上述媒体"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 84, "category": "运动伦理学", "turns": ["哪些单位或个人不得非法生产、销售、进出口兴奋剂目录所列禁用物质？A. 体育组织 B. 医疗机构 C. 科研机构 D. 所有单位和个人"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 85, "category": "运动伦理学", "turns": ["生产兴奋剂目录所列蛋白同化制剂、肽类激素的企业应保存其记录至少多久？A. 1年 B. 2年 C. 3年 D. 5年"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 86, "category": "运动伦理学", "turns": ["哪些药品批发企业方可经营蛋白同化制剂、肽类激素？A. 有专门的管理人员 B. 有专储仓库或药柜 C. 有专门的登记制度 D. 所有上述条件"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 87, "category": "运动伦理学", "turns": ["禁止向体育运动参加者提供或变相提供什么？A. 药品 B. 器材 C. 兴奋剂 D. 营养补充品"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 88, "category": "运动伦理学", "turns": ["兴奋剂目录是由哪些部门共同制定和公布的？A. 体育、药品监督管理、卫生、商务主管部门和海关总署 B. 教育、科技、财政、国家市场监督管理总局 C. 环境保护、国家发展和改革委员会、公安部 D. 国务院法制办公室、民政部、司法部"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 89, "category": "运动伦理学", "turns": ["谁负责加强反兴奋剂宣传、教育工作？A. 体育组织 B. 教育机构 C. 媒体机构 D. 县级以上人民政府体育主管部门"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 90, "category": "运动伦理学", "turns": ["对兴奋剂目录所列的禁用物质实行何种管理？A. 严格管理 B. 一般管理 C. 放宽管理 D. 免管理"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 91, "category": "运动伦理学", "turns": ["根据本条例，禁止向体育运动参加者提供或变相提供什么？A. 药品 B. 器材 C. 兴奋剂 D. 营养补充品"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 92, "category": "运动伦理学", "turns": ["兴奋剂目录是由哪些部门共同制定和公布的？A. 体育、药品监督管理、卫生、商务主管部门和海关总署 B. 教育、科技、财政、国家市场监督管理总局 C. 环境保护、国家发展和改革委员会、公安部 D. 国务院法制办公室、民政部、司法部"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 93, "category": "运动伦理学", "turns": ["谁负责加强反兴奋剂宣传、教育工作？A. 体育组织 B. 教育机构 C. 媒体机构 D. 县级以上人民政府体育主管部门"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 94, "category": "运动伦理学", "turns": ["对兴奋剂目录所列的禁用物质实行何种管理？A. 严格管理 B. 一般管理 C. 放宽管理 D. 免管理"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 95, "category": "运动伦理学", "turns": ["生产兴奋剂目录所列蛋白同化制剂、肽类激素的企业应保存其记录至少多久？A. 1年 B. 2年 C. 3年 D. 5年"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 96, "category": "运动伦理学", "turns": ["哪些药品批发企业方可经营蛋白同化制剂、肽类激素？A. 有专门的管理人员 B. 有专储仓库或药柜 C. 有专门的登记制度 D. 所有上述条件"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 97, "category": "运动伦理学", "turns": ["根据本条例，谁负责组织全国的反兴奋剂工作？A. 国务院体育主管部门 B. 省级体育主管部门 C. 卫生部门 D. 教育部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 98, "category": "运动伦理学", "turns": ["兴奋剂目录由哪些部门制定、调整并公布？A. 国务院体育主管部门 B. 国务院药品监督管理部门 C. 国务院卫生主管部门 D. 所有上述部门"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 99, "category": "运动伦理学", "turns": ["哪些媒体应当开展反兴奋剂的宣传？A. 广播电台 B. 电视台 C. 报刊媒体 D. 所有上述媒体"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 100, "category": "运动伦理学", "turns": ["哪些单位或个人不得非法生产、销售、进出口兴奋剂目录所列禁用物质？A. 体育组织 B. 医疗机构 C. 科研机构 D. 所有单位和个人"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 101, "category": "运动伦理学", "turns": ["体育社会团体应加强对谁的监督管理和反兴奋剂教育、培训？A. 运动员 B. 教练 C. 领队和队医 D. 所有上述人员"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 102, "category": "运动伦理学", "turns": ["哪些单位和个人不得向运动员提供兴奋剂？A. 体育社会团体 B. 运动员管理单位 C. 科研单位 D. 所有上述单位和个人"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 103, "category": "运动伦理学", "turns": ["运动员管理单位应为运动员约定什么？A. 医疗机构 B. 训练场地 C. 营养师 D. 心理咨询师"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 104, "category": "运动伦理学", "turns": ["体育社会团体、运动员管理单位应提供运动员的哪些相关信息？A. 个人信息 B. 训练信息 C. 药物使用情况 D. 运动成绩"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 105, "category": "运动伦理学", "turns": ["全国性体育社会团体应对哪些行为规定处理措施和程序？A. 使用兴奋剂 B. 向运动员提供兴奋剂 C. 拒绝兴奋剂检查 D. 所有上述行为"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 106, "category": "运动伦理学", "turns": ["运动员辅助人员的责任包括哪些？A. 教育运动员不得使用兴奋剂 B. 提供反兴奋剂规则咨询 C. 不阻挠兴奋剂检查 D. 所有上述责任"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 107, "category": "运动伦理学", "turns": ["运动员不得在体育运动中做什么？A. 使用兴奋剂 B. 使用违禁药物 C. 不遵守规则 D. 违反公平竞赛原则"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 108, "category": "运动伦理学", "turns": ["运动员因医疗目的使用药品时，医师应首先选择什么类型的药品？A. 含有禁用物质的药品 B. 不含禁用物质的药品 C. 传统草药 D. 自然疗法"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 109, "category": "运动伦理学", "turns": ["哪些机构应加强反兴奋剂教育，提高学生的反兴奋剂意识？A. 体育学院 B. 中小学 C. 中等及中等以上教育学校和其他教育机构 D. 健身俱乐部"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 110, "category": "运动伦理学", "turns": ["体育健身活动经营单位及其专业指导人员不得向体育健身活动参加者提供什么？A. 运动器材 B. 营养食品 C. 含有禁用物质的药品、食品 D. 健身计划"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 111, "category": "运动伦理学", "turns": ["哪个部门负责制定兴奋剂检查规则和计划并组织实施？A. 国务院体育主管部门 B. 省级体育主管部门 C. 卫生部门 D. 教育部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 112, "category": "运动伦理学", "turns": ["赛内兴奋剂检查主要针对哪些运动员？A. 全国性体育竞赛参赛运动员 B. 省级体育竞赛参赛运动员 C. 国际体育竞赛参赛运动员 D. A 和 B"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 113, "category": "运动伦理学", "turns": ["对哪些运动员应实施赛外兴奋剂检查？A. 在全国性体育社会团体注册的运动员 B. 在省级体育社会团体注册的运动员 C. 所有专业运动员 D. 所有业余运动员"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 114, "category": "运动伦理学", "turns": ["兴奋剂检查人员在履行职责时有权进入哪些地方？A. 体育训练场所 B. 体育竞赛场所 C. 运动员驻地 D. 所有上述地方"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 115, "category": "运动伦理学", "turns": ["受检样本应由谁检测？A. 国务院体育主管部门指定的检测机构 B. 任何检测机构 C. 省级体育主管部门指定的检测机构 D. 国际反兴奋剂机构"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 116, "category": "运动伦理学", "turns": ["体育主管部门和其他行政机关及工作人员不履行职责或违反本条例行为的后果是什么？A. 行政处分 B. 刑事责任 C. 财务赔偿 D. A 和 B"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 117, "category": "运动伦理学", "turns": ["违法生产、经营蛋白同化制剂、肽类激素的行为将受到什么处罚？A. 罚款 B. 吊销许可证 C. 刑事责任 D. 所有上述处罚"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 118, "category": "运动伦理学", "turns": ["体育社会团体、运动员管理单位向运动员提供兴奋剂的法律责任包括哪些？A. 收缴兴奋剂 B. 不得从事体育管理工作 C. 民事赔偿责任 D. 所有上述责任"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 119, "category": "运动伦理学", "turns": ["运动员辅助人员违规行为的法律责任包括哪些？A. 收缴兴奋剂 B. 不得从事体育管理工作 C. 民事赔偿责任 D. 所有上述责任"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 120, "category": "运动伦理学", "turns": ["医师违规使用药品或未履行告知义务的后果是什么？A. 警告 B. 暂停执业活动 C. 罚款 D. A 和 B"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 121, "category": "运动伦理学", "turns": ["体育健身活动经营单位向参加者提供含禁用物质的药品、食品的处罚是什么？A. 警告 B. 罚款 C. 吊销营业执照 D. B 和 C"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 122, "category": "运动伦理学", "turns": ["运动员违反本条例规定，可能受到哪些处理？A. 取消参赛资格 B. 取消比赛成绩 C. 禁赛 D. 所有上述处理"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 123, "category": "运动伦理学", "turns": ["赛外兴奋剂检查主要针对哪类运动员？A. 全国性体育社会团体注册的运动员 B. 省级体育社会团体注册的运动员 C. 所有专业运动员 D. 所有业余运动员"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 124, "category": "运动伦理学", "turns": ["运动员有何义务关于兴奋剂检查？A. 接受检查 B. 不得影响采样结果 C. 向检查人员提供信息 D. A 和 B"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 125, "category": "运动伦理学", "turns": ["运动员离开驻地时必须遵守什么规定？A. 报告 B. 请假 C. 通知教练 D. 通知体育社会团体"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 126, "category": "运动伦理学", "turns": ["国家对竞技体育发展的态度是怎样的？A. 促进和鼓励 B. 忽视和放任 C. 限制和控制 D. 禁止和抵制"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 127, "category": "运动伦理学", "turns": ["国家如何促进职业体育发展？A. 加强市场化、职业化 B. 限制市场活动 C. 只支持业余体育 D. 减少政府干预"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 128, "category": "运动伦理学", "turns": ["国家在体育运动学校和特色学校方面的措施是什么？A. 加强建设和支持 B. 减少投资 C. 改为综合性学校 D. 关闭特色学校"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 129, "category": "运动伦理学", "turns": ["国家对运动员的教育内容包括哪些？A. 爱国主义、集体主义和社会主义教育 B. 道德、纪律和法治教育 C. 技能训练 D. A 和 B"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 130, "category": "运动伦理学", "turns": ["国家如何对运动员进行训练？A. 采用传统方法 B. 随机训练 C. 科学、文明的训练 D. 高强度训练"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 131, "category": "运动伦理学", "turns": ["国家如何保障处于义务教育阶段的运动员完成教育？A. 提供专业体育教育 B. 忽略文化教育 C. 由体育行政和教育行政部门保障 D. 仅提供体育训练"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 132, "category": "运动伦理学", "turns": ["运动员有权参加什么类型的注册并进行交流？A. 单项体育协会 B. 多项体育组织 C. 非体育组织 D. 国际体育组织"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 133, "category": "运动伦理学", "turns": ["国家对优秀运动员提供什么类型的优待？A. 金钱奖励 B. 在就业和升学方面 C. 免费体育器材 D. 国际比赛机会"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 134, "category": "运动伦理学", "turns": ["各级人民政府如何支持退役运动员？A. 提供职业技能培训和社会保障 B. 继续提供训练设施 C. 仅提供经济补助 D. 无任何支持"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 135, "category": "运动伦理学", "turns": ["国家实行哪些等级制度来管理体育运动？A. 体育运动水平等级 B. 教练员职称等级 C. 裁判员技术等级 D. 所有上述等级制度"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 136, "category": "运动伦理学", "turns": ["国家对使用兴奋剂在体育运动中的态度是什么？A. 鼓励有限制地使用 B. 完全禁止 C. 在特定情况下允许 D. 不关注此问题"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 137, "category": "运动伦理学", "turns": ["哪些部门联合负责对兴奋剂问题的综合治理？A. 体育、卫生健康、教育、公安等部门 B. 环保、财政、国土资源等部门 C. 仅体育行政部门 D. 民政、文化、旅游等部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 138, "category": "运动伦理学", "turns": ["哪个部门负责制定反兴奋剂规范？A. 国务院体育行政部门 B. 省级体育行政部门 C. 市级体育行政部门 D. 县级体育行政部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 139, "category": "运动伦理学", "turns": ["兴奋剂目录由哪些部门共同制定和公布？A. 体育、药品监管、卫生健康、商务、海关部门 B. 环保、财政、国土资源部门 C. 教育、科技、文化部门 D. 交通运输、农业、市场监管部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 140, "category": "运动伦理学", "turns": ["反兴奋剂机构的主要职责包括什么？A. 开展检查和公开反兴奋剂信息 B. 提供兴奋剂 C. 组织体育赛事 D. 进行体育设施建设"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 141, "category": "运动伦理学", "turns": ["谁负责组织开展反兴奋剂宣传和教育工作？A. 县级以上人民政府体育行政部门 B. 学校和教育机构 C. 卫生健康部门 D. 公安部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 142, "category": "运动伦理学", "turns": ["国家在反兴奋剂领域鼓励什么类型的研究？A. 科学技术研究 B. 社会科学研究 C. 文化研究 D. 历史研究"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 143, "category": "运动伦理学", "turns": ["国家在反兴奋剂方面如何参与国际合作？A. 开展国际交流 B. 履行国际条约义务 C. 组织国际赛事 D. 推广国际文化"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 144, "category": "运动伦理学", "turns": ["对于组织、强迫或引诱体育运动参加者使用兴奋剂的行为，国家持何种态度？A. 鼓励 B. 允许有限制的使用 C. 禁止 D. 不关注"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 145, "category": "运动伦理学", "turns": ["反兴奋剂机构的信息公开和社会监督职责包括什么？A. 定期发布体育赛事信息 B. 公开反兴奋剂信息并接受社会监督 C. 提供体育训练信息 D. 发布体育市场数据"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 146, "category": "运动伦理学", "turns": ["县级以上人民政府应如何处理体育事业经费？A. 列入本级预算 B. 降低投入 C. 忽视投入 D. 随意分配"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 147, "category": "运动伦理学", "turns": ["国家对于通过社会力量支持体育事业发展的态度是怎样的？A. 鼓励捐赠和赞助 B. 限制私人投资 C. 忽视社会贡献 D. 禁止私人资助"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 148, "category": "运动伦理学", "turns": ["国家对体育资金管理的规定包括哪些内容？A. 侵占和挪用体育资金 B. 严格管理，禁止侵占和挪用 C. 无明确规定 D. 自由使用体育资金"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 149, "category": "运动伦理学", "turns": ["国家如何提高公共体育服务水平？A. 通过政府购买服务 B. 减少公共体育投入 C. 限制公共体育活动 D. 仅依靠私人投资"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 150, "category": "运动伦理学", "turns": ["县级以上地方人民政府在配置体育场地设施方面的责任是什么？A. 优化配置，优先保障全民健身 B. 减少体育场地建设 C. 仅建设竞技体育设施 D. 忽视全民健身需求"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 151, "category": "运动伦理学", "turns": ["公共体育场地设施建设的规划应该纳入什么规划？A. 国民经济和社会发展规划 B. 仅城市建设规划 C. 环境保护规划 D. 交通规划"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 152, "category": "运动伦理学", "turns": ["新建、改建、扩建居住社区应该如何处理配套体育场地设施？A. 同步规划、设计、建设 B. 忽视体育场地建设 C. 降低建设标准 D. 由私人投资商建设"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 153, "category": "运动伦理学", "turns": ["公共体育场地设施管理单位应对哪些群体实行优惠？A. 未成年人、老年人、残疾人 B. 仅成年人 C. 高收入人群 D. 体育专业人员"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 154, "category": "运动伦理学", "turns": ["国家在体育公园建设方面的策略是什么？A. 推进建设，免费开放 B. 限制体育公园建设 C. 收取高额门票 D. 私人投资主导"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 155, "category": "运动伦理学", "turns": ["国家鼓励如何利用旧厂房、仓库等闲置资源？A. 改建为体育场地设施 B. 改建为商业设施 C. 废弃不用 D. 用于住宅开发"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 156, "category": "运动伦理学", "turns": ["体育仲裁应该如何进行？A. 依法独立，不受干涉 B. 受行政机关指导 C. 由社会组织决定 D. 个人意志影响"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 157, "category": "运动伦理学", "turns": ["哪些情况下可以申请体育仲裁？A. 取消参赛资格的纠纷 B. 运动员注册纠纷 C. 体育设施建设 D. A和B"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 158, "category": "运动伦理学", "turns": ["体育仲裁委员会由哪些成员组成？A. 仅体育行政部门代表 B. 体育、法律专家和体育社会组织代表 C. 任何志愿者 D. 体育运动参与者"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 159, "category": "运动伦理学", "turns": ["体育仲裁委员会裁决体育纠纷时采取什么制度？A. 仲裁庭制 B. 单一裁决 C. 投票决定 D. 行政命令"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 160, "category": "运动伦理学", "turns": ["体育组织应如何解决内部纠纷？A. 独立处理 B. 忽略纠纷 C. 申请法院介入 D. 建立内部纠纷解决机制"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 161, "category": "运动伦理学", "turns": ["体育仲裁裁决书自什么时候起发生法律效力？A. 自裁决之日起 B. 申请之日起 C. 发现纠纷之日起 D. 双方当事人同意之日起"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 162, "category": "运动伦理学", "turns": ["在哪些情况下可以向法院申请撤销体育仲裁裁决？A. 适用法律错误 B. 裁决程序违规 C. 证据伪造 D. 所有上述情况"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 163, "category": "运动伦理学", "turns": ["如何处理不履行体育仲裁裁决的情况？A. 忽视 B. 个别协商 C. 向人民法院申请执行 D. 体育仲裁委员会自行执行"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 164, "category": "运动伦理学", "turns": ["需要即时处理的体育赛事活动纠纷适用什么程序？A. 普通法律程序 B. 体育仲裁特别程序 C. 行政调解 D. 忽略处理"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 165, "category": "运动伦理学", "turns": ["谁负责制定体育仲裁规则？A. 国务院体育行政部门 B. 各体育社会组织 C. 人民法院 D. 运动员个人"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 166, "category": "运动伦理学", "turns": ["县级以上人民政府体育行政部门的监督检查职责包括什么？A. 及时处理违反法规行为 B. 只监督体育赛事 C. 只处理行政事项 D. 仅书面通知相关部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 167, "category": "运动伦理学", "turns": ["县级以上人民政府体育行政部门对体育赛事活动进行什么样的监管？A. 仅审查合同和票据 B. 只检查安全应急预案 C. 实施现场检查和审核材料 D. 不参与赛事活动监管"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 168, "category": "运动伦理学", "turns": ["体育赛事活动组织者需履行哪些安全保障义务？A. 提供安全条件 B. 制定风险预案 C. 维护赛事安全 D. 所有上述"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 169, "category": "运动伦理学", "turns": ["哪些部门负责体育市场的监督管理？A. 仅体育行政部门 B. 仅市场监管部门 C. 体育行政和市场监管部门 D. 无需监督管理"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 170, "category": "运动伦理学", "turns": ["新设体育项目由谁认定？A. 各地体育组织 B. 国务院体育行政部门 C. 体育协会 D. 学校体育部门"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 171, "category": "运动伦理学", "turns": ["经营高危险性体育项目需要满足哪些条件？A. 相关设施符合国家标准 B. 具有专业人员和救助人员 C. 安全保障制度 D. 所有上述"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 172, "category": "运动伦理学", "turns": ["举办高危险性体育赛事活动需符合哪些条件？A. 有专业技术人员 B. 有合格场地和设施 C. 制定相关保障措施 D. 所有上述"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 173, "category": "运动伦理学", "turns": ["县级以上地方人民政府应建立什么机制以保障体育执法？A. 经济支持机制 B. 体育执法机制 C. 社会监督机制 D. 政策制定机制"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 174, "category": "运动伦理学", "turns": ["县级以上地方人民政府应向哪里报告全民健身、青少年和学校体育工作？A. 本级人民代表大会或其常务委员会 B. 国务院体育行政部门 C. 教育行政部门 D. 公安部门"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 175, "category": "运动伦理学", "turns": ["发现不属于本部门主管事项的违法行为时，体育行政部门应怎样处理？A. 忽略不管 B. 自行处理 C. 移交相关部门查处 D. 仅书面通知"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 176, "category": "法律责任", "turns": ["根据第一百零九条，国家机关及其工作人员违反法律规定时应承担哪些责任？A. 责令改正，给予处分 B. 只给予书面警告 C. 仅进行口头警告 D. 不采取任何措施"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 177, "category": "法律责任", "turns": ["第一百一十条规定，体育组织违反法律规定的处理方式包括哪些？A. 责令改正，给予警告，处分负责人 B. 仅给予口头警告 C. 无需任何处理 D. 只进行书面记录"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 178, "category": "法律责任", "turns": ["根据第一百一十一条，学校违反法律相关规定应如何处理？A. 责令改正，处分负责人 B. 只需书面道歉 C. 仅接受警告 D. 不需要任何处理"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 179, "category": "法律责任", "turns": ["第一百一十二条描述的运动员、教练员、裁判员违反法律规定的处理方式是什么？A. 仅接受警告 B. 被纳入限制、禁止名单，罚款 C. 只承担民事责任 D. 不受任何惩罚"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 180, "category": "法律责任", "turns": ["第一百一十三条规定体育赛事活动组织者违法的处罚包括什么？A. 责令改正，罚款 B. 只进行警告 C. 不受任何处罚 D. 仅承担民事责任"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 181, "category": "法律责任", "turns": ["根据第一百一十四条，侵占或破坏公共体育场地设施的法律责任是什么？A. 责令改正，处以罚款 B. 只需书面警告 C. 无需承担责任 D. 只接受口头警告"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 182, "category": "法律责任", "turns": ["第一百一十五条规定，未经批准临时占用公共体育场地设施的处理方法是什么？A. 限期改正，处以罚款 B. 只需要口头道歉 C. 无须承担任何责任 D. 只需书面记录"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 183, "category": "法律责任", "turns": ["根据第一百一十六条，未经许可经营高危险性体育项目的法律责任包括什么？A. 责令关闭，处以罚款 B. 只接受警告 C. 无需承担责任 D. 只承担民事责任"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 184, "category": "法律责任", "turns": ["第一百一十七条规定，运动员违规使用兴奋剂的处理方式是什么？A. 取消参赛资格、成绩，禁赛 B. 只接受口头警告 C. 不受任何处罚 D. 仅接受警告"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 185, "category": "法律责任", "turns": ["根据第一百一十八条，组织、强迫、欺骗、教唆、引诱运动员使用兴奋剂的法律责任是什么？A. 没收兴奋剂，处以罚款，禁止从事相关工作 B. 只需书面道歉 C. 不承担任何责任 D. 仅接受口头警告"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 186, "category": "法律责任", "turns": ["第一百一十八条还规定，向运动员提供或变相提供兴奋剂的法律责任包括什么？A. 没收兴奋剂，处以罚款，禁止从事相关工作 B. 只接受警告 C. 无需承担任何责任 D. 只承担民事责任"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 187, "category": "法律责任", "turns": ["第一百一十九条规定，违反法律规定造成损害的责任包括什么？A. 承担民事责任，可能面临治安或刑事处罚 B. 只需书面道歉 C. 不承担任何责任 D. 只接受警告"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 188, "category": "法律责任", "turns": ["如果运动员、教练员、裁判员的违法行为导致严重后果，第一百一十二条规定的处理方式是什么？A. 限制、禁止参加竞技体育活动，罚款 B. 只接受警告 C. 无需承担任何责任 D. 只承担民事责任"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 189, "category": "法律责任", "turns": ["第一百一十三条中，如果体育赛事活动组织者未按要求采取风险防范及应急处置预案等保障措施，应承担哪些法律责任？A. 责令改正，处以罚款 B. 只需口头警告 C. 不承担任何责任 D. 只需书面记录"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 190, "category": "法律责任", "turns": ["根据第一百一十六条，违法经营高危险性体育项目的后果包括什么？A. 责令改正，处以罚款，可能吊销许可证 B. 只接受警告 C. 无需承担任何责任 D. 只承担民事责任"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 191, "category": "运动伦理学", "turns": ["运动员作为公众人物，他们在维护体育精神方面的社会责任包括哪些方面？A. 只需专注于个人表现 B. 展现体育精神，作为年轻运动员的榜样 C. 避免公开发表意见 D. 专注于赞助商关系"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 192, "category": "运动伦理学", "turns": ["运动员在比赛中面临的道德困境可能包括什么？A. 是否利用对手的不公平优势 B. 是否在比赛中显示最佳表现 C. 是否遵守比赛规则 D. 是否采用策略性暂停"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 193, "category": "运动伦理学", "turns": ["在裁判的角色中，道德判断的重要性体现在哪里？A. 严格执行比赛规则 B. 维护比赛的公平性和公正性 C. 增加比赛的观赏性 D. 促进参赛者之间的良好关系"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 194, "category": "运动伦理学", "turns": ["体育组织在伦理责任方面应重视哪些方面？A. 仅关注财务盈利 B. 确保运动员福利和安全 C. 专注于增加观众数量 D. 只着眼于赛事组织效率"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 195, "category": "运动伦理学", "turns": ["如何处理体育运动中的性别歧视问题，以符合运动伦理学原则？A. 忽略这些问题，因为它们不重要 B. 通过政策和教育促进性别平等 C. 仅在女性运动员提出时应对 D. 强调男性运动的优越性"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 196, "category": "运动伦理学", "turns": ["运动员作为社会角色模型，在塑造年轻观众态度方面的作用如何与运动伦理学相联系？A. 他们的行为应体现运动伦理学的高标准 B. 他们的私生活不影响其作为角色模型的作用 C. 专注于比赛成绩，而非行为举止 D. 角色模型的作用不是运动员的责任"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 197, "category": "运动伦理学", "turns": ["运动伦理学如何与推动社会正义相关联？A. 通过支持平等和包容性的体育活动 B. 仅通过提供娱乐来贡献社会 C. 忽视社会问题，专注于体育竞技 D. 将社会正义与体育活动分开"], "reference_answer": ["A"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 198, "category": "运动伦理学", "turns": ["运动伦理学对体育活动的商业化持何种态度？A. 完全支持，因为它增加了体育的受众 B. 批评过度商业化，因为它可能损害体育精神 C. 完全反对任何形式的商业化 D. 只要赞助商满意，就无所谓"], "reference_answer": ["B"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 199, "category": "运动伦理学", "turns": ["在运动伦理学中，运动员的身体健康和心理健康的重要性如何体现？A. 仅强调身体健康，忽视心理健康 B. 忽视两者，只关注比赛成绩 C. 同等重视身体健康和心理健康 D. 仅强调心理健康，忽视身体健康"], "reference_answer": ["C"], "question_type": "单选题", "question_level": "1"}
+{"question_id": 200, "category": "运动伦理学", "turns": ["运动伦理学如何看待运动中的公平竞争与技术创新之间的关系？A. 技术创新应受到限制，以保证公平竞争 B. 技术创新无关紧要，只要保持比赛公平 C. 技术创新是推动运动发展的关键，即使牺牲一些公平性 D. 促进技术创新，同时确保公平竞争的原则得到遵守"], "reference_answer": ["D"], "question_type": "单选题", "question_level": "1"}
