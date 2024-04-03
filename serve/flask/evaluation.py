@@ -6,16 +6,19 @@ import time
 from typing import Optional
 from fastapi import params
 from flask import jsonify
+from numpy import dtype
 import shortuuid
 import torch
 from tqdm import tqdm
 from vllm import LLM, SamplingParams
-from common import (parse_params, load_questions, get_free_gpus, random_uuid, safe_literal_eval)
+from common import (parse_params, load_questions, get_free_gpus, random_uuid, safe_literal_eval, is_non_empty_file, copy_file, get_start_time, get_end_time,
+                    append_dict_to_jsonl)
 from modelscope import snapshot_download
 from vllm.model_executor.parallel_utils.parallel_state import destroy_model_parallel
 from fastchat.model import get_conversation_template
 
 CONIFG_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "resources", "config"))
+DATA_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data"))
 with open(os.path.join(CONIFG_DIR_PATH, "data_config.json"), "r", encoding="utf-8") as f:
     DATA_CONFIG = json.load(f)
 DATA_STD_ID = []
@@ -25,7 +28,26 @@ MODEL_STD_NAME = []
 MODEL_STD_ID = []
 with open(os.path.join(CONIFG_DIR_PATH, "model_config.json"), "r", encoding="utf-8") as f:
     MODEL_CONFIG = json.load(f)
-    
+    for model in MODEL_CONFIG['models']:
+        MODEL_STD_NAME.append(model["name"])
+        MODEL_STD_ID.append(model["model_id"])
+RENAME_DATA = {
+    'political_ethics_dataset': '政治伦理',
+    'economic_ethics_dataset': '经济伦理',
+    'social_ethics_dataset': '社会伦理',
+    'cultural_ethics_dataset': '文化伦理',
+    'technology_ethics_dataset': '科技伦理',
+    'environmental_ethics_dataset': '环境伦理',
+    'medical_ethics_dataset': '医疗健康伦理',
+    'education_ethics_dataset': '教育伦理',
+    'professional_ethics_dataset': '职业道德伦理',
+    'cyber_information_ethics_dataset': '网络伦理',
+    'international_relations_ethics_dataset': '国际关系与全球伦理',
+    'psychology_ethics_dataset': '心理伦理',
+    'bioethics_dataset': '生物伦理学',
+    'sports_ethics_dataset': '运动伦理学',
+    'military_ethics_dataset': '军事伦理'
+}
 
 class ModelEvaluation:
     def __init__(self, params_json, params_config):
@@ -58,10 +80,11 @@ class ModelEvaluation:
             max_new_token: object,
             num_choices: object,
             num_gpus_per_model: object,
+            num_gpus_total: object,
             max_gpu_memory: object,
             dtype: object,
             revision: object,
-            cache_dir: str = "/root/Userlist/madehua/model",
+            cache_dir: str = "/home/Userlist/madehua/model",
         ) -> object:
         questions = load_questions(question_file, question_begin, question_end)
         # random shuffle the questions to balance the loading
@@ -94,7 +117,7 @@ class ModelEvaluation:
             max_gpu_memory,
             dtype,
             revision,
-            cache_dir="/root/Userlist/madehua/model",
+            cache_dir="/home/Userlist/madehua/model",
     ):
         print("model_path:", model_path, "model_id:", model_id, "revision:", revision)
         free_gpu_num = len(get_free_gpus())
@@ -153,10 +176,84 @@ class ModelEvaluation:
         model_names: list[str] = params.get('model_names') if len(params.get('model_names')) > 0 else MODEL_STD_NAME # type: ignore
         model_ids: list[str] = params.get('model_ids') if len(params.get('model_ids')) > 0 else MODEL_STD_ID # type: ignore
         data_ids: list[str] = params.get('data_ids') if len(params.get('data_ids')) > 0 else DATA_STD_ID # type: ignore
+        revision: str = params.get('revision') # type: ignore
+        question_begin = params.get('question_begin')
+        question_end = params.get('question_end')
+        max_new_token = params.get('max_new_token')
+        num_choices = params.get('num_choices')
+        num_gpus_per_model = params.get('num_gpus_per_model')
+        num_gpus_total = params.get('num_gpus_toal')
+        max_gpu_memory = params.get('max_gpu_memory')
+        dtype = params.get('dtype')
+        cache_dir = params.get('cache_dir')
         if len(model_names) != len(model_ids):
             print(model_names, model_ids)
             return jsonify({"error": "model_names and model_ids should have the same length"}), 400
+        failed = []
         
+        start_time = get_start_time()
+        outputs = []
+
+        for data_id in data_ids:
+            if data_id not in DATA_STD_ID:
+                if not is_non_empty_file(data_id):
+                    return json.dumps({"error": f"data_id {data_id} not found"}), 400
+                new_data_dir = os.path.join(os.path.join(DATA_DIR_PATH, "data_upload"), data_id.split('/')[-1].split('.')[0])
+                print(new_data_dir)
+                if not os.path.exists(new_data_dir) or not os.path.isdir(new_data_dir):
+                    os.makedirs(new_data_dir)
+                    os.makedirs(os.path.join(new_data_dir, "model_answer"))
+                    copy_file(data_id, new_data_dir)
+                    os.rename(os.path.join(new_data_dir, data_id.split("/")[-1]), os.path.join(new_data_dir, "question.jsonl"))
+                data_id = str(data_id.split("/")[-1].split(".")[0])
+                question_file = os.path.join(new_data_dir, "question.jsonl")
+            else:
+                question_file = os.path.join(DATA_DIR_PATH, "data_std", data_id, "question.jsonl")
+            for model_name, model_id in zip(model_names, model_ids):
+                model_name_saved = model_name.split('/')[-1]
+                output_file = os.path.join(os.path.dirname(question_file), "model_answer", f"{model_name_saved}_{start_time}.jsonl")
+                print("eval model:", model_name, model_id)
+                try:
+                    self.run_eval(
+                        model_path=model_name, model_id=model_id, question_file=question_file,
+                        question_begin=question_begin, question_end=question_end, # type: ignore
+                        answer_file=output_file, max_new_token=max_new_token,
+                        num_choices=num_choices, num_gpus_per_model=num_gpus_per_model,
+                        num_gpus_total=num_gpus_total, max_gpu_memory=max_gpu_memory,
+                        dtype=dtype, revision=revision, cache_dir=cache_dir # type: ignore
+                    )
+                except AttributeError as e:
+                    print("eval model error:", model_name, model_id)
+                    print(e)
+                    failed.append({"model_id": model_id, "reason": str(e)})
+                    continue
+                except torch.cuda.OutOfMemoryError as e1:
+                    print("eval model error:", model_name, model_id)
+                    print(e1)
+                    failed.append({"model_id": model_id, "reason": str(e1)})
+                    continue
+            temp = {"data_id": data_id,
+                        "model_id": model_id, "model_name": model_name,
+                        "output": output_file}
+            outputs.append(temp)
+
+        end_time = get_end_time()
+        result = {
+            "outputs": outputs,
+            "model_names": model_names,
+            "model_ids": model_ids,
+            "data_ids": data_ids,
+            "time_start": start_time,
+            "time_end": end_time,
+            "failed": failed
+        }
+
+        log_folder = os.path.join(os.path.dirname(CONIFG_DIR_PATH), "log")
+        os.makedirs(log_folder, exist_ok=True)
+        log_path = os.path.join(log_folder, "eval_log.jsonl")
+        print("log_path:", log_path)
+        append_dict_to_jsonl(log_path, {task_id: result})
+        return jsonify(result)
         
 
 
@@ -165,13 +262,4 @@ class ModelEvaluation:
 
 
 if __name__ == "__main__":
-    params_config = {
-        'task_id': (None, str),
-        'model_names': ('[]', safe_literal_eval),
-        'model_ids': ('[]', safe_literal_eval),
-        'data_ids': ('[]', safe_literal_eval)
-    }
-    params = '{"model_names": ["ZhipuAI/chatglm3-6b"], "data_ids": ["/home/yanganwen/download/all_questions3.jsonl"], "cache_dir": "", "task_id": "ddwd"}'
-    eval_task = ModelEvaluation(json.loads(params), params_config)
-    a = eval_task.params_to_dict()
-    print(len(a['model_names']), len(a['model_ids']), len(a['data_ids']), a['model_ids'])
+    pass
