@@ -31,23 +31,7 @@ with open(os.path.join(CONIFG_DIR_PATH, "model_config.json"), "r", encoding="utf
     for model in MODEL_CONFIG['models']:
         MODEL_STD_NAME.append(model["name"])
         MODEL_STD_ID.append(model["model_id"])
-RENAME_DATA = {
-    'political_ethics_dataset': '政治伦理',
-    'economic_ethics_dataset': '经济伦理',
-    'social_ethics_dataset': '社会伦理',
-    'cultural_ethics_dataset': '文化伦理',
-    'technology_ethics_dataset': '科技伦理',
-    'environmental_ethics_dataset': '环境伦理',
-    'medical_ethics_dataset': '医疗健康伦理',
-    'education_ethics_dataset': '教育伦理',
-    'professional_ethics_dataset': '职业道德伦理',
-    'cyber_information_ethics_dataset': '网络伦理',
-    'international_relations_ethics_dataset': '国际关系与全球伦理',
-    'psychology_ethics_dataset': '心理伦理',
-    'bioethics_dataset': '生物伦理学',
-    'sports_ethics_dataset': '运动伦理学',
-    'military_ethics_dataset': '军事伦理'
-}
+
 
 class ModelEvaluation:
     def __init__(self, params_json, params_config):

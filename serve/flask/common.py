@@ -7,9 +7,12 @@ import subprocess
 import time
 from typing import Optional
 import uuid
+from dotenv import load_dotenv
 
 import pytz
+import requests
 
+load_dotenv()
 
 def parse_params(data, params_config):
     """
@@ -126,3 +129,20 @@ def read_jsonl_files(directory):
                 file_dict[filename.split('.jsonl')[0]] = content
 
     return file_dict
+
+def send_post_request(data_id, params_json):
+    vcis11 = os.getenv("VCIS11")
+    url = f"http://{vcis11}:5004/get_datapage_detail"
+    headers = {"Content-Type": "application/json"}
+    # data = {"data_id": data_id}
+    
+    response = requests.post(url, json=params_json, headers=headers)
+    
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return response.status_code
+    
+if __name__ == "__main__":
+
+    pass
