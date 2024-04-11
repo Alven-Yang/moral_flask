@@ -130,11 +130,10 @@ def read_jsonl_files(directory):
 
     return file_dict
 
-def send_post_request(data_id, params_json):
+def send_post_request(route, params_json):
     vcis11 = os.getenv("VCIS11")
-    url = f"http://{vcis11}:5004/get_datapage_detail"
+    url = f"http://{vcis11}:5004/{route}"
     headers = {"Content-Type": "application/json"}
-    # data = {"data_id": data_id}
     
     response = requests.post(url, json=params_json, headers=headers)
     

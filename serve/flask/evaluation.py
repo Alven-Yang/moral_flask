@@ -112,8 +112,8 @@ class ModelEvaluation:
                                         local_files_only=False)
         print("model_dir:", model_dir)
         try:
-            llm = LLM(model=model_dir, trust_remote_code=True, tensor_parallel_size=max((free_gpu_num-(free_gpu_num & 1)), 1))
-            # llm = LLM(model=model_dir, trust_remote_code=True)
+            # llm = LLM(model=model_dir, trust_remote_code=True, tensor_parallel_size=max((free_gpu_num-(free_gpu_num & 1)), 1))
+            llm = LLM(model=model_dir, trust_remote_code=True)
         except (ModuleNotFoundError, AttributeError, torch.cuda.OutOfMemoryError) as e:
             print(e)
             destroy_model_parallel()

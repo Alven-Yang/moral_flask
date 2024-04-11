@@ -1,5 +1,8 @@
+import json
 import os
 from collections import defaultdict
+
+import numpy as np
 from common import read_jsonl_files
 
 DATA_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data"))
@@ -118,7 +121,7 @@ class ScoreCalculator:
                     })
                 field = answer['field']
                 report_per_model[model]["score_per_category"][category]["correct"] += is_correct
-                # report_per_model[model]["score_per_category"][category]["total"] += 1
+                report_per_model[model]["score_per_category"][category]["total"] += 1
                 report_per_model[model]["scores_per_data_id"][field]["correct"] += is_correct
                 report_per_model[model]["scores_per_data_id"][field]["total"] += 1
                 report_per_model[model]["total_correct"] += is_correct
@@ -132,12 +135,12 @@ class ScoreCalculator:
                 report_per_data[field][model]["total_questions"] += 1
 
         for model, data in report_per_model.items():
-            # for category, scores in data["score_per_category"].items():
-            #     data["score_per_category"][category] = {
-            #         "correct": scores["correct"],
-            #         "total": scores["total"],
-            #         "accuracy": scores["correct"] / scores["total"] if scores["total"] > 0 else 0
-            #     }
+            for category, scores in data["score_per_category"].items():
+                data["score_per_category"][category] = {
+                    "correct": scores["correct"],
+                    "total": scores["total"],
+                    "accuracy": scores["correct"] / scores["total"] if scores["total"] > 0 else 0
+                }
             for data_id, scores in data["scores_per_data_id"].items():
                 data["scores_per_data_id"][data_id] = {
                     "correct": scores["correct"],
@@ -152,3 +155,32 @@ class ScoreCalculator:
             for model, data in models.items():
                 data["score_total"] = data["total_correct"] / data["total_questions"] if data["total_questions"] > 0 else 0
         return report_per_model, report_per_data
+    
+    def variance(self, bench_names):
+        scores = []
+        scores_out = []
+        for bench_name in bench_names:
+            scores.append({bench_name : self.calculate_model_scores_dimension(bench_name.split("/")[-1].split(".")[0])})
+        result = {}
+        for data_set_scores in scores:
+            model_score = []
+            for data_id, model_scores in data_set_scores.items():
+                score_all = []
+                models_evaluated = []     
+                for model, score in model_scores[0].items():
+                    models_evaluated.append(model.split("_")[0])
+                    score_all.append(score["result"])
+                    model_score.append(score["score_total"])
+                # print(model_score)
+                score_all = np.array(score_all).astype(int)
+                score_all_re = score_all.reshape(-1, len(score["result"]))
+                score_all_re_mean = np.mean(score_all_re, axis=1)
+                variances = np.var(score_all_re_mean, axis=0)
+                result[data_id.split("/")[-1].split(".")[0]] = {}
+                result[data_id.split("/")[-1].split(".")[0]]["models_evaluated"] = models_evaluated
+                result[data_id.split("/")[-1].split(".")[0]]["variance"] = variances
+                result[data_id.split("/")[-1].split(".")[0]]["mean"] = np.mean(np.array(model_score))
+                # result[data_id.split("/")[-1].split(".")[0]]["var"] = np.var(np.array(model_score))
+                result[data_id.split("/")[-1].split(".")[0]]["model_score"] = list(score_all_re_mean)
+        # print(f"result: {json.dumps(dict(result), indent=4)}")
+        return json.dumps(result)
