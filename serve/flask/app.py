@@ -1,5 +1,6 @@
 import os, sys, json
 import uuid
+from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 import numpy as np
 from common import (is_non_empty_file, parse_params, safe_literal_eval, random_uuid)
@@ -7,6 +8,9 @@ from evaluation import DATA_DIR_PATH, ModelEvaluation
 from evaluation import MODEL_CONFIG, DATA_CONFIG, CONIFG_DIR_PATH
 from score import ScoreCalculator
 from evalInterfaceV3 import gen_eval_report
+
+load_dotenv()
+MODEL_DIR = os.environ.get("MODEL_DIR")
 
 MODEL_DICT = {model["name"].split('/')[-1]: model for model in MODEL_CONFIG["models"]}
 DATA_DICT = {}
@@ -51,7 +55,7 @@ def run_evaluate():
         'num_gpus_total': (1, int),
         'max_gpu_memory': (70, int),
         'dtype': (None, str),
-        'cache_dir': ("/home/Userlist/madehua/model", str)
+        'cache_dir': (MODEL_DIR, str)
     }
     eval_task = ModelEvaluation(params, params_config)
     eval_task.run()

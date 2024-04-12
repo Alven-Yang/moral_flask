@@ -131,8 +131,8 @@ def read_jsonl_files(directory):
     return file_dict
 
 def send_post_request(route, params_json):
-    vcis11 = os.getenv("VCIS11")
-    url = f"http://{vcis11}:5004/{route}"
+    LOCAL_IP = os.getenv("LOCAL_IP")
+    url = f"http://{LOCAL_IP}:5004/{route}"
     headers = {"Content-Type": "application/json"}
     
     response = requests.post(url, json=params_json, headers=headers)

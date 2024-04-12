@@ -68,7 +68,7 @@ class ModelEvaluation:
             max_gpu_memory: object,
             dtype: object,
             revision: object,
-            cache_dir: str = "/home/Userlist/madehua/model",
+            cache_dir: str,
         ) -> object:
         questions = load_questions(question_file, question_begin, question_end)
         # random shuffle the questions to balance the loading
@@ -101,7 +101,7 @@ class ModelEvaluation:
             max_gpu_memory,
             dtype,
             revision,
-            cache_dir="/home/Userlist/madehua/model",
+            cache_dir,
     ):
         print("model_path:", model_path, "model_id:", model_id, "revision:", revision)
         free_gpu_num = len(get_free_gpus())

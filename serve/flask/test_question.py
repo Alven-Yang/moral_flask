@@ -1,7 +1,7 @@
 from common import *
 from score import ScoreCalculator
 
-question_dir_path = "/home/yanganwen/question/4.12/"
+question_dir_path = "/home/Userlist/yanganwen/code/dataset/4.12/"
 
 question_list = os.listdir(question_dir_path)
 
