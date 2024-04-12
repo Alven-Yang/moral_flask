@@ -130,7 +130,7 @@ def get_datapage_detail():
         return jsonify({"error": "Missing required fields in the request"}), 400
     DATA_ID = data.get('data_id')
     DATA_RENAME = RENAME_DATA.get(DATA_ID, None)
-    report_per_model, report_per_data = score_calculator.calculate_model_scores_dimension("moral_bench_test5")
+    report_per_model, report_per_data = score_calculator.calculate_model_scores_category("moral_bench_test5")
 
     result = {
         "request_id": request_id,
